@@ -1,7 +1,7 @@
 # Layoffs-SQL-Data-Cleaning-Project
 
 ## Project Overview
-This project focuses on cleaning and preparing the Layoffs dataset sourced from Kaggle for analysis. The dataset contains information on tech layoffs, including company names, industries, number of layoffs, funding raised, and more.
+This project focuses on cleaning and preparing the Layoffs dataset sourced from Kaggle for analysis. The dataset contains information on layoffs, including company names, industries, number of layoffs, funding raised, and more.
 
 Using SQL (MySQL), I performed a series of cleaning operations to standardize the data, handle duplicates and missing values, and prepare the dataset for further analysis or visualization.
 
