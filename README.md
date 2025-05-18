@@ -6,7 +6,8 @@ This project focuses on cleaning and preparing the Layoffs dataset sourced from 
 Using SQL (MySQL), I performed a series of cleaning operations to standardize the data, handle duplicates and missing values, and prepare the dataset for further analysis or visualization.
 
 ## Dataset Info
-Source: Layoffs on Kaggle [Layoffs](https://docs.google.com/spreadsheets/d/1T-ZjWPHB4BDEaiibC_J4PxdvSVKthuiXLpAyYlvYw58/edit?usp=sharing)
+Source: Layoffs on Kaggle [Layoffs](https://docs.google.com/spreadsheets/d/1T-ZjWPHB4BDEaiibC_J4PxdvSVKthuiXLpAyYlvYw58/edit?usp=sharing).
+
 Content: Company, Location, Industry, Total Laid Off, Percentage Laid Off, Date, Stage, Country, Funds Raised (Millions)
 
 ## Tools & Technologies
