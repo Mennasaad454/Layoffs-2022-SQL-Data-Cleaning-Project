@@ -38,6 +38,3 @@ A cleaned, standardized, and analysis-ready dataset saved in a refined staging t
 - Industry-level comparisons
 - Layoff volume forecasting
 - Data visualization
-
-## Files Included
-Data cleaning project.sql: Full SQL script used for cleaning the dataset
