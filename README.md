@@ -1,19 +1,19 @@
 # Layoffs-SQL-Data-Cleaning-Project
 
-## 📘 Project Overview
+## Project Overview
 This project focuses on cleaning and preparing the Layoffs dataset sourced from Kaggle for analysis. The dataset contains information on tech layoffs, including company names, industries, number of layoffs, funding raised, and more.
 
 Using SQL (MySQL), I performed a series of cleaning operations to standardize the data, handle duplicates and missing values, and prepare the dataset for further analysis or visualization.
 
-## 🗂️ Dataset Info
+## Dataset Info
 Source: Layoffs on Kaggle
 Content: Company, Location, Industry, Total Laid Off, Percentage Laid Off, Date, Stage, Country, Funds Raised (Millions)
 
-## ⚙️ Tools & Technologies
+## Tools & Technologies
 MySQL – Data cleaning, transformation, and formatting
 SQL Functions – ROW_NUMBER(), TRIM(), STR_TO_DATE(), joins, CTEs
 
-## 🔧 Cleaning Steps
+## Cleaning Steps
 1. Remove Duplicates
 - Created a staging table to preserve original data.
 - Used ROW_NUMBER() to identify and delete duplicate rows.
@@ -31,7 +31,7 @@ SQL Functions – ROW_NUMBER(), TRIM(), STR_TO_DATE(), joins, CTEs
 - Removed rows with missing critical values (total_laid_off, percentage_laid_off).
 - Dropped helper columns like row_num after processing.
 
-## ✅ Final Result
+## Final Result
 A cleaned, standardized, and analysis-ready dataset saved in a refined staging table (layoffs_staging2). This cleaned version can now be used for:
 
 - Trend analysis
@@ -39,5 +39,5 @@ A cleaned, standardized, and analysis-ready dataset saved in a refined staging t
 - Layoff volume forecasting
 - Data visualization
 
-## 📁 Files Included
+## Files Included
 Data cleaning project.sql: Full SQL script used for cleaning the dataset
